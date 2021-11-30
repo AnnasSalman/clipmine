@@ -1,0 +1,46 @@
+.collections {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    color: #3a3a3a;
+}
+
+.collections > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 3rem;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #3a3a3a;
+}
+
+.collections > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.collections > div > p {
+    width: 440px;
+}
+
+.collections > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    background-size: cover;
+    color: wheat;
+}
+
+.collections > ul > #ml{
+    background: url('../images/collections/collection-ml_461x184.png') center;
+}
+
+.collections > ul > #startups{
+    background: url('../images/collections/collection-startup_460x184.png') center;
+}

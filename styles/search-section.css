@@ -1,0 +1,30 @@
+.search-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    color: #3a3a3a;
+}
+
+#tag-input{
+    width: 350px;
+    height: 30px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-width: 1px;
+}
+
+.search-section > div {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.search-section > div > button {
+    background-color: #2c71b8;
+    border-width: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
